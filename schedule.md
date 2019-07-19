@@ -1,7 +1,7 @@
 # Translation schedule
 The following is the translation schedule. When you select a topic, check the schedule or open PRs, and do not duplicate your work with others. If your topic is available for translation, fill in the topic name and your name in the schedule, and create a pull request.
 > Note   
-> The schedule table is not complete, it's just used for test repo. 
+> The following table is not complete schedule, it's just used for test repo. 
 
 Topic                        | Translator   | Reviever       | Status 
 :----------------------------|:-------------|:---------------|:------
