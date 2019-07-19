@@ -1,14 +1,14 @@
 # Making contributions
 
 ## Markdown
-Translation guidelines are written in [Markdown](https://www.markdownguide.org/). If you don't know how to use Markdown, learn how to [get started](https://www.markdownguide.org/getting-started).
+All files in the Pulsar translation repository are written in [Markdown](https://www.markdownguide.org/). If you do not know how to use Markdown, learn how to [get started](https://www.markdownguide.org/getting-started).
 
 
 ## Workflow
 
-### Step 1: Fork xxx Pulsar_translation on GitHub
+### Step 1: Fork Pulsar_translation on GitHub
 
-1. Visit https://github.com/xxx/Pulsar_translation/
+1. Visit https://github.com/Jennifer88huang/Pulsar_translation
 2. Click `Fork` button (top right) to establish a cloud-based fork.
 
 ### Step 2: Clone fork to local machine
@@ -24,7 +24,7 @@ Set your clone to track upstream repository.
 
 ```sh
 $ cd $working_dir/Pulsar_translation
-$ git remote add upstream https://github.com/xxx/Pulsar_translation.git
+$ git remote add upstream https://github.com/Jennifer88huang/Pulsar_translation.git
 ```
 
 Use the `git remote -v` command, you find the output looks as follows:
@@ -32,8 +32,8 @@ Use the `git remote -v` command, you find the output looks as follows:
 ```
 origin    https://github.com/$user/Pulsar_translation.git (fetch)
 origin    https://github.com/$user/Pulsar_translation.git (push)
-upstream  https://github.com/xxx/Pulsar_translation (fetch)
-upstream  https://github.com/xxx/Pulsar_translation (push)
+upstream  https://github.com/Jennifer88huang/Pulsar_translation (fetch)
+upstream  https://github.com/Jennifer88huang/Pulsar_translation (push)
 ```
 
 ### Step 3: Keep your branch in sync
@@ -42,8 +42,8 @@ Get your local master up to date.
 
 ```sh
 $ cd $working_dir/Pulsar_translation
-$ git fetch upstream
 $ git checkout master
+$ git fetch upstream
 $ git rebase upstream/master
 $ git push origin master 
 ```
@@ -97,9 +97,7 @@ $ git push origin myfeature
 
 ### Step 9: Get a code review
 
-Once you open your pull request, assign it to at least two
-reviewers. Those reviewers will conduct a thorough code review, looking for
-correctness, bugs, opportunities for improvement, documentation and comments, and style.
+Once you open your pull request, assign it to at least two reviewers. Those reviewers will conduct a thorough code review, looking for correctness, bugs, opportunities for improvement, documentation and comments, and style.
 
 Commit changes made in response to review comments to the same branch on your fork.
 
