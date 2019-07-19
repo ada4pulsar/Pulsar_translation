@@ -53,6 +53,9 @@ Reviewer 收到通知后，开始审阅翻译内容。审阅完成后，在 PR �
 
 审阅无误后，reviewer approve 该 PR，并 merge。
 
+The following image gives a general workflow. The workflow source file is shared at [lucidchat](https://www.lucidchart.com/invitations/accept/0ebad9d8-ddf3-4a92-8ee6-e813a9bc58ff). 
+![](media/translation-workflow.png)
+
 ## Guidelines ##
 本规范主要列出了一些常见的翻译问题，并提供了一些指导意见和建议。开始翻译前，请认真阅读并尽量遵守本文的规范，这能有效提高 Pulsar 翻译文件质量，统一翻译风格。
 
